@@ -1,0 +1,38 @@
+body{
+    background-color: #ffd2f4;
+    color: #9a578b;
+    font-family: font-family: 'Libre Baskerville', serif; 
+}
+
+h3{
+    color: #9a578b;
+    font-size: 22px;
+}
+
+/*esto es un comentario*/
+
+h1, p{
+    color:#0a7295;
+}
+    
+img{
+    /*width: 400px;*/
+   /* height: 300px;*/
+    border-style:double;
+    border-color:#3e2a4c;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.img1{
+    width: 400px;
+}
+.img2{
+    width: 400px;
+    margin-bottom: 140px;
+}
+
+a, small{
+    color:#f71ceb;
+}

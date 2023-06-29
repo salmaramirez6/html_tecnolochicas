@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Esto es un comentaio-->
+    <head>
+        <title>Pagina de Perritos</title>
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+       <h1>Página de perritos</h1>
+       
+       <h3>Imágenes de perritos</h3>
+       <!--Imagen desde internet-->
+       <img  class="img1" src="https://i.pinimg.com/originals/eb/ed/6d/ebed6dbb1d84e108e6d0cf82d91523ed.jpg">
+
+
+       <!--imagen desde computadora-->
+       <img class="img2" src="imagenes/Chihuahua.jpg">
+
+        <!--Crear enlaces externos-->
+        <p> Si quieres ver más imágenes de perritos, <a href="https://unsplash.com/es/s/fotos/perritos" target="_blank" >da clic en este enlace</a>.</p>
+
+        <h3>Lista de perritos</h3>
+
+        <p>3 cosas que los perritos <strong>aman</strong></p>
+
+        <!--Lista ordenada-->
+        <ol> <!--Ordered list-->
+            <li>Pollo</li> <!--List item-->
+            <li>Huesos</li>
+            <li>Correr</li>
+        </ol>
+
+        <p>3 cosas que los perritos <i>odian</i></p>
+
+        <!--lista desordenada-->
+        <ul> <!--unordered list-->
+        <li>Los gatitos</li>
+        <li>Los fuegos artificiales</li>
+        <li>El frío</li>
+        </ul>
+
+        <!--Formularios-->
+        <form>
+            <!--form con botones de radio-->
+            <p>¿Tu perrito es cachorro o es adulto?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto"checked>Cachorro 
+            </label>
+            <br> 
+            <label>
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+            </label>
+
+            <!--form con casillas de verificación-->
+            <p>¿Qué tipo de personalidad tiene tu perro?</p>
+            <label>
+               <input id="enojón" type="checkbox" value="enojón" name="personalidad"checked>Enojón  
+            </label>
+            <br>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"checked>Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="enérgico" type="checkbox" value="enérgico" name="personalidad"checked>Enérgico
+            </label>
+        </form>
+    </body>
+
+    <footer>
+        <p><small>
+            Esta página fue creada durante el Bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a>.
+        </small></p>
+</html>
